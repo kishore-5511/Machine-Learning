@@ -30,6 +30,11 @@ print(val1)
 print(val2)
 print(val3)
 
+# Quote Type	                    Primary Use
+# Single ('...')	                For single-line strings, especially when the string contains ".
+# Double ("...")	                For single-line strings, especially when the string contains '.
+# Triple ('''...''' or """...""")	For multi-line strings and writing docstrings.
+
 # Sum
 x = 18
 y = 9
@@ -121,7 +126,7 @@ int2 = int(input("Enter 2nd number: "))
 sum = int1 + int2
 print("Sum : ", sum )
 
-# WAP to ijnput side of a square and print its area
+# WAP to input side of a square and print its area
 side = int(input("Enter the side of a square : "))
 area = side*side
 print("Area of the square : ", area)

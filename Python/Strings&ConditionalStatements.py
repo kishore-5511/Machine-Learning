@@ -21,11 +21,11 @@ print(ch)
 # str2[0] = B  #Throws an error manipulation of string is not allowed
 
 # Slicing
-print(str2[1:5])  #final position is not included
+print(str2[1:5])  #final position 5 is not included
 print(str2[0:])
 print(str2[:9])
 print(str2[:-1])
-print(str2[-9:-5])
+print(str2[-9:-5]) #final position -5 is not included
 
 # String Functions
 str = "i am studying python from apnacollege"
@@ -37,7 +37,7 @@ print(str)
 print(str.replace("o", "a"))
 print(str.replace("python", "java"))
 print(str.find("o"))
-print(str.find("from"))
+print(str.find("from")) # returns the index of first letter if found.
 print(str.find("k"))
 print(str.count("o"))
 print(str.count("from"))
